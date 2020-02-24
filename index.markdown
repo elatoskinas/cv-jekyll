@@ -1,6 +1,13 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: cv
 ---
+
+<header>
+    <h1>Evaldas Latoškinas</h1>
+</header>
+
+<hr>
+
+<body>
+    Test
+</body>

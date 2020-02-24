@@ -1,0 +1,5 @@
+/* Set to A4 size */
+html, body {
+    height:297mm;
+    width:210mm;
+}
