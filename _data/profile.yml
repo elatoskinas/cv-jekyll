@@ -1,0 +1,62 @@
+contact:
+  - name: Phone Number
+    icon: "fas fa-phone"
+    value: "#"
+
+  - name: E-mail
+    icon: "fas fa-envelope"
+    value: "@"
+
+  - name: Location
+    icon: "fas fa-map-marker-alt"
+    value: "Delft, Netherlands"
+
+  - name: Github
+    icon: "fab fa-github"
+    value: "github.com/elatoskinas"
+    link: "https://github.com/elatoskinas"
+
+  - name: Linkedin
+    icon: "fab fa-linkedin"
+    value: "linkedin.com/in/evaldas-latoskinas"
+    link: "https://www.linkedin.com/in/evaldas-latoskinas/"
+
+  - name: Website
+    icon: "fas fa-globe"
+    value: "elatoskinas.github.io"
+    link: "https://elatoskinas.github.io/"
+
+technologies:
+  - Java
+  - C++
+  - C#
+  - Python
+  - Javascript
+  - Scala
+  - SQL
+  - MongoDB
+  - Spark
+  - Flink
+  - Android
+  - Windows
+  - Linux
+  - Gradle
+  - Maven
+  - Git
+  
+key_skills:
+  - Complex Problem Solving
+  - Algorithms & Data Structures
+  - Software Development
+  - Software Testing
+  - Scrum Methodology
+  - Version Control
+  - Collaboration & Teamwork
+
+other_interests:
+  - Game Development
+  - 3D Modeling
+  - Computer Graphics
+  - Mathematics
+  - Open Source
+  - Competitive Programming

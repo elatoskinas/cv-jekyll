@@ -1,10 +1,18 @@
+:root {
+    --text-color: #000000;
+    --text-secondary-color: #ffffff;
+    --accent-color: #009dff;
+}
+
 /* Set to A4 size */
 html, body {
     height:297mm;
     width:210mm;
+    color: var(--text-color)
 }
 
-body {
+/* General settings */
+h1 {
     text-align: center;
 }
 
@@ -14,4 +22,31 @@ h1, h2, h3, h4, h5 {
 
 p {
     font-family: 'Montserrat';
+}
+
+/* Profile Entry */
+#contact-details {
+    text-align: start;
+}
+
+.profile-entry {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.profile-entry i {
+    color: var(--accent-color)
+}
+
+.profile-entry p {
+    display: inline;
+}
+
+/* Technologies */
+.technology-entry {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: var(--text-secondary-color);
+    padding: 3px 5px;
+    margin: 5px 3px;
 }
