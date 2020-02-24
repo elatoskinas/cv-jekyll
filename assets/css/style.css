@@ -74,7 +74,7 @@ hr {
     flex-wrap: wrap;
     flex-direction: column;
     height: 110px;
-    margin: 0 18%;
+    margin: 0 12.5%;
 }
 
 .profile-entry {
@@ -105,14 +105,13 @@ body main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 10px 7.5px;
+    margin: 10px 10px;
     height: 240mm;
 }
 
 body main > * {
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     width: 100mm;
-    margin-right: 10mm;
 }
 
 /* Technologies */
@@ -139,7 +138,7 @@ body main > * {
 
 /* Timeline */
 .timeline {
-    padding: 0 0 0 15px;
+    padding: 0 0 0 20px;
     list-style: none;
 }
 
