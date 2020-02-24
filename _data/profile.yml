@@ -41,15 +41,14 @@ work_experience:
     end_date: Now
     description: Improving & integrating a type checker based on a neural network model
     details:
-      - Development in Python
-      - Migrating AST & ASTTokens libraries to a LibCST implementation
+      - Development in Python to add new features to Python type predictor
   - title: Teaching Assistant
     affiliation: TU Delft    
     start_date: Sep 2019
     end_date: Jan 2020
     description: Helping students with course materials and assignments and grading their work
     details:
-      - Involvement in OOP, Computer Organization, Reasoning & Logic and Web & DB courses
+      - Helping students with OOP, Computer Organization, Reasoning & Logic and Web & DB courses
 
 projects:
   - title: Chart Components
@@ -58,45 +57,44 @@ projects:
     end_date: Aug 2019
     description: Creating Chart Components for MIT App Inventor's system that allow visualizing data
     details:
-      - Detail 1 TBD
-      - Detail 2 TBD
-      - Detail 3 TBD
+      - Data visualization components developed using Android SDK and the MPAndroidChart library
+      - Representative Charts on the client side using GWT and the Charba library
+      - Gained familiarity with Redis, Arduino and GCP
   - title: GoGreen Java Application
     affiliation: University Project
     start_date: Feb 2019
     end_date: Apr 2019
     description: Java Desktop social network-like application allowing to track CO2 savings and comparing them with other users
     details:
-      - Detail 1 TBD
-      - Detail 2 TBD
-      - Detail 3 TBD
+      - Java social network-like application for CO2 tracking
+      - Scrum process in a team of 7 people
+      - Spring and MongoDB usage in the backend
+      - Usage of Maven, Gitlab CI/CD to build the project
+      - Unit & integration tests using JUnit, Mockito and an in-memory database for MongoDB
   - title: PixelChess Web Application
     affiliation: University Project
     start_date: Nov 2018
     end_date: Jan 2019
     description: Web application allowing multiple users to play Chess one against another
     details:
-      - Detail 1 TBD
-      - Detail 2 TBD
-      - Detail 3 TBD
+      - Node.js Web application allowing multiple users to play Chess against each other online
+      - Developed using vanilla Javascript, HTML and CSS, deployment to Heroku
   - title: FinBuddy Android Application
     affiliation: Individual Project
     start_date: Oct 2017
     end_date: Apr 2018
     description: Mobile application that allows to track finances
     details:
-      - Detail 1 TBD
-      - Detail 2 TBD
-      - Detail 3 TBD
+      - Android application for tracking finances, involving implementation of financial events, goals and an interactive calendar
+      - Usage of various third-party Android libraries, e.g. Caldroid and MPAndroidChart
+      - SQLite Database usage to store and query data in the application
   - title: Virtual Poker Chips Android Application
     affiliation: Individual Project
     start_date: Jul 2017
     end_date: Apr 2018
     description: Mobile application that allows to simulate poker chips
     details:
-      - Detail 1 TBD
-      - Detail 2 TBD
-      - Detail 3 TBD
+      - Unity (C#) mobile app that simulates poker chips
   
 
 technologies:

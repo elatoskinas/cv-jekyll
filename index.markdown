@@ -17,7 +17,20 @@ layout: cv
     <hr>
 </header>
 
-<body>
+<main>
+    <section id="work-experience">
+        <header>
+            <h2>Experience</h2>
+        </header>
+
+        {% for work in site.data.profile.work_experience %}
+            <div class="work-entry">
+                {% include experience.html %}
+            </div>
+        {% endfor %}
+    </section>
+
+
     <section id="education">
         <header>
             <h2>Education</h2>
@@ -29,8 +42,18 @@ layout: cv
                 <p class="date">{{edu.start_date}} - {{edu.end_date}}</p>
                 <p class="date">Expected graduation: {{edu.expected_graduation}}</p>
                 <p>{{edu.degree}}</p>
-                <p>{{edu.gpa}}</p>
+                <p>GPA: {{edu.gpa}}</p>
             </div>
+        {% endfor %}
+    </section>
+
+    <section id="technologies">
+        <header>
+            <h2>Technologies</h2>
+        </header>
+
+        {% for tech in site.data.profile.technologies %}
+            <p class="technology-entry">{{tech}}</p>
         {% endfor %}
     </section>
 
@@ -46,17 +69,6 @@ layout: cv
         </ul>
     </section>
 
-    
-    <section id="technologies">
-        <header>
-            <h2>Technologies</h2>
-        </header>
-
-        {% for tech in site.data.profile.technologies %}
-            <p class="technology-entry">{{tech}}</p>
-        {% endfor %}
-    </section>
-
     <section id="other-interests">
         <header>
             <h2>Other Interests</h2>
@@ -69,23 +81,15 @@ layout: cv
         </header>
     </section>
 
-    <!-- <section id="work_experience">
-        <header>
-            <h2>Experience</h2>
-        </header>
-
-        {% for work in site.data.profile.work_experience %}
-            {% include experience.html %}
-        {% endfor %}
-    </section>
-
     <section id="projects">
         <header>
             <h2>Projects</h2>
         </header>
 
         {% for work in site.data.profile.projects %}
-            {% include experience.html %}
+            <div class="work-entry">
+                {% include experience.html %}
+            </div>
         {% endfor %}
-    </section> -->
-</body>
+    </section>
+</main>
