@@ -18,6 +18,22 @@ layout: cv
 </header>
 
 <body>
+    <section id="education">
+        <header>
+            <h2>Education</h2>
+        </header>
+
+        {% for edu in site.data.profile.education %}
+            <div class="education-entry">
+                <h3>{{edu.name}}</h3>
+                <p class="date">{{edu.start_date}} - {{edu.end_date}}</p>
+                <p class="date">Expected graduation: {{edu.expected_graduation}}</p>
+                <p>{{edu.degree}}</p>
+                <p>{{edu.gpa}}</p>
+            </div>
+        {% endfor %}
+    </section>
+
     <section id="key-skills">
         <header>
             <h2>Key Skills</h2>
@@ -30,6 +46,7 @@ layout: cv
         </ul>
     </section>
 
+    
     <section id="technologies">
         <header>
             <h2>Technologies</h2>
@@ -51,4 +68,24 @@ layout: cv
             </p>
         </header>
     </section>
+
+    <!-- <section id="work_experience">
+        <header>
+            <h2>Experience</h2>
+        </header>
+
+        {% for work in site.data.profile.work_experience %}
+            {% include experience.html %}
+        {% endfor %}
+    </section>
+
+    <section id="projects">
+        <header>
+            <h2>Projects</h2>
+        </header>
+
+        {% for work in site.data.profile.projects %}
+            {% include experience.html %}
+        {% endfor %}
+    </section> -->
 </body>

@@ -1,0 +1,10 @@
+<h3>{{work.title}}</h3>
+<h4>{{work.affiliation}}</h4>
+<p class="date">{{work.start_date}} - {{work.end_date}}</p>
+<p>{{work.description}}</p>
+
+<ul>
+    {% for detail in work.details %}
+        <li>{{detail}}</li>
+    {% endfor %}
+</ul>
