@@ -9,7 +9,13 @@ layout: cv
         {% for entry in site.data.profile.contact %}
             <div class="profile-entry">
                 <i class="{{entry.icon}}"></i>
-                <p>{{entry.value}}</p>
+                <p>
+                    {% if entry.link %}
+                        <a href="{{entry.link}}">{{entry.value}}</a>
+                    {% else %}
+                        {{entry.value}}
+                    {% endif %}
+                </p>
             </div>
         {% endfor %}
     </section>

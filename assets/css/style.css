@@ -1,7 +1,7 @@
 :root {
     --text-color: #000000;
+    --text-link-color: #484848;
     --text-secondary-color: #ffffff;
-    --text-accent-color: #656565;
 
     --background-color: #f7f7f7;
     --accent-color: #009dff;
@@ -37,8 +37,17 @@ h2 {
     color: var(--accent-color);
 }
 
+h4 {
+    font-weight: normal;
+}
+
 p {
     padding: 1px 0px;
+}
+
+a {
+    color: var(--text-link-color);
+    text-decoration: none;
 }
 
 ul {

@@ -52,6 +52,7 @@ work_experience:
 
 projects:
   - title: Chart Components
+    link: https://elatoskinas.github.io/blog/open%20source/2019/08/25/gsoc-2019-project-summary.html
     affiliation: Google Summer of Code with MIT App Inventor
     start_date: May 2019
     end_date: Aug 2019
@@ -61,6 +62,7 @@ projects:
       - Representative Charts on the client side using GWT and the Charba library
       - Gained familiarity with Redis, Arduino and GCP
   - title: GoGreen Java Application
+    link: https://github.com/elatoskinas/cse38-gogreen
     affiliation: University Project
     start_date: Feb 2019
     end_date: Apr 2019
@@ -72,6 +74,7 @@ projects:
       - Maven and Gitlab CI/CD for project building
       - Unit & integration tests using JUnit, Mockito and an in-memory database for MongoDB
   - title: PixelChess Web Application
+    link: https://github.com/elatoskinas/cse404-chess
     affiliation: University Project
     start_date: Nov 2018
     end_date: Jan 2019
@@ -80,6 +83,7 @@ projects:
       - Node.js Web application allowing multiple users to play Chess against each other online
       - Developed using vanilla Javascript, HTML and CSS, deployment to Heroku
   - title: FinBuddy Android Application
+    link: https://play.google.com/store/apps/details?id=emporium.financecalendar
     affiliation: Individual Project
     start_date: Oct 2017
     end_date: Apr 2018
@@ -89,6 +93,7 @@ projects:
       - Usage of various third-party Android libraries, namely Caldroid and MPAndroidChart
       - SQLite Database as the data storage solution
   - title: Virtual Poker Chips Android Application
+    link: https://play.google.com/store/apps/details?id=enlightenworks.VirtualPokerChips
     affiliation: Individual Project
     start_date: Jul 2017
     end_date: Apr 2018
