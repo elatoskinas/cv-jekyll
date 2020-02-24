@@ -23,11 +23,14 @@ layout: cv
             <h2>Experience</h2>
         </header>
 
-        {% for work in site.data.profile.work_experience %}
-            <div class="work-entry">
-                {% include experience.html %}
-            </div>
-        {% endfor %}
+        <ul class="timeline">
+            {% for work in site.data.profile.work_experience %}
+                <li class="work-entry">
+                    <span class="timeline-line"></span>
+                    {% include experience.html %}
+                </li>
+            {% endfor %}
+        </ul>
     </section>
 
 
@@ -86,10 +89,13 @@ layout: cv
             <h2>Projects</h2>
         </header>
 
-        {% for work in site.data.profile.projects %}
-            <div class="work-entry">
-                {% include experience.html %}
-            </div>
-        {% endfor %}
+        <ul class="timeline">
+            {% for work in site.data.profile.projects %}
+                <li class="work-entry">
+                    <span class="timeline-line"></span>
+                    {% include experience.html %}
+                </li>
+            {% endfor %}
+        </ul>
     </section>
 </main>

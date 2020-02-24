@@ -119,11 +119,42 @@ body main > * {
 
 /* Experience */
 .project-entry, .work-entry {
-    padding-bottom: 8px;
+    padding-bottom: 5px;
 }
 
 /* Date */
 .date {
     color: var(--text-accent-color);
     font-style: italic;
+}
+
+/* Timeline */
+.timeline {
+    padding: 0 0 0 15px;
+    list-style: none;
+}
+
+.timeline li {
+    position: relative;
+}
+
+.timeline li > .timeline-line {
+    width: 2px;
+    height: 100%;
+    left: -15px;
+    top: 0;
+    position: absolute;
+    background: var(--accent-color);
+}
+
+.timeline li > .timeline-line:before, .timeline li > .timeline-line:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1.5px solid var(--accent-color);
+    position: absolute;
+    background: #76cbff;
+    left: -5px;
+    top: 0;
 }
