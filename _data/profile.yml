@@ -68,8 +68,8 @@ projects:
     details:
       - Java social network-like application for CO2 tracking
       - Scrum process in a team of 7 people
-      - Spring and MongoDB usage in the backend
-      - Usage of Maven, Gitlab CI/CD to build the project
+      - Spring and MongoDB backend frameworks
+      - Maven and Gitlab CI/CD for project building
       - Unit & integration tests using JUnit, Mockito and an in-memory database for MongoDB
   - title: PixelChess Web Application
     affiliation: University Project
@@ -86,8 +86,8 @@ projects:
     description: Mobile application that allows to track finances
     details:
       - Android application for tracking finances, involving implementation of financial events, goals and an interactive calendar
-      - Usage of various third-party Android libraries, e.g. Caldroid and MPAndroidChart
-      - SQLite Database usage to store and query data in the application
+      - Usage of various third-party Android libraries, namely Caldroid and MPAndroidChart
+      - SQLite Database as the data storage solution
   - title: Virtual Poker Chips Android Application
     affiliation: Individual Project
     start_date: Jul 2017
@@ -95,6 +95,7 @@ projects:
     description: Mobile application that allows to simulate poker chips
     details:
       - Unity (C#) mobile app that simulates poker chips
+      - Development of game logic & interactive UI from scratch
   
 
 technologies:
