@@ -32,7 +32,7 @@ education:
     end_date: Now
     expected_graduation: July 2021
     degree: BSc Computer Science & Engineering
-    gpa: 9.25/10 (Top 1% of class)
+    gpa: 9.25/10
 
 work_experience:
   - title: Student Developer
